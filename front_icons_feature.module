@@ -4,4 +4,4 @@
  * Code for the OFF Front Icons Fefature feature.
  */
 
-include_once 'off_front_icons_feature.features.inc';
+include_once 'front_icons_feature.features.inc';

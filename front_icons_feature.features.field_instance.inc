@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_front_icons_feature.features.field_instance.inc
+ * front_icons_feature.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function off_front_icons_feature_field_default_field_instances() {
+function front_icons_feature_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-front_icons-body'

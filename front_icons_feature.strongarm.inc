@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_front_icons_feature.strongarm.inc
+ * front_icons_feature.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function off_front_icons_feature_strongarm() {
+function front_icons_feature_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

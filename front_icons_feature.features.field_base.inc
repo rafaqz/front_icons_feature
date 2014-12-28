@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_front_icons_feature.features.field_base.inc
+ * front_icons_feature.features.field_base.inc
  */
 
 /**
  * Implements hook_field_default_field_bases().
  */
-function off_front_icons_feature_field_default_field_bases() {
+function front_icons_feature_field_default_field_bases() {
   $field_bases = array();
 
   // Exported field_base: 'field_fi_image'

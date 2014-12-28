@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_front_icons_feature.features.fe_block_settings.inc
+ * front_icons_feature.features.fe_block_settings.inc
  */
 
 /**
  * Implements hook_default_fe_block_settings().
  */
-function off_front_icons_feature_default_fe_block_settings() {
+function front_icons_feature_default_fe_block_settings() {
   $export = array();
 
   $export['version'] = '2.0';

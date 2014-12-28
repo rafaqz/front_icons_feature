@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * off_front_icons_feature.features.user_permission.inc
+ * front_icons_feature.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function off_front_icons_feature_user_default_permissions() {
+function front_icons_feature_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create front_icons content'.
