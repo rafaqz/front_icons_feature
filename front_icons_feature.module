@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Code for the OFF Front Icons Fefature feature.
+ * Code for the Front Icons Fefature feature.
  */
 
 include_once 'front_icons_feature.features.inc';

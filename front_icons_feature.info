@@ -1,6 +1,6 @@
-name = OFF Front Icons Fefature
+name = Front Icons Fefature
 core = 7.x
-package = Collabco
+package = Features
 dependencies[] = core_feature
 dependencies[] = ctools
 dependencies[] = features
