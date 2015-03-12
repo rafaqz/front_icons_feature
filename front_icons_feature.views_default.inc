@@ -131,6 +131,8 @@ function front_icons_feature_views_default_views() {
   $handler->display->display_options['fields']['field_fi_slogan']['label'] = '';
   $handler->display->display_options['fields']['field_fi_slogan']['alter']['make_link'] = TRUE;
   $handler->display->display_options['fields']['field_fi_slogan']['alter']['path'] = '[field_fi_link]';
+  $handler->display->display_options['fields']['field_fi_slogan']['alter']['prefix'] = '<h4>';
+  $handler->display->display_options['fields']['field_fi_slogan']['alter']['suffix'] = '</h4>';
   $handler->display->display_options['fields']['field_fi_slogan']['element_label_colon'] = FALSE;
   /* Sort criterion: Content: Weight (field_fi_weight) */
   $handler->display->display_options['sorts']['field_fi_weight_value']['id'] = 'field_fi_weight_value';
